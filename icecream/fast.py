@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def hellow_world():
-    return {"greeting_new": "Hi!!!"}
+    return {"greeting_new": "Hi"}
 
 
 @app.get("/predict")
